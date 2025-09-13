@@ -1,0 +1,50 @@
+.programs{
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.programs img{
+    width: 100%;
+    border-radius: 10px;
+    /* display: block; */
+    /*ansition: transform 0.3s ease, box-shadow 0.3s ease;*/
+
+}
+/*.programs{
+    flex-basis: 56%;
+    position: relative;
+}*/
+.program{
+    flex-basis: 56%;
+    padding: 12px;
+    position: relative;
+}
+.program:hover .caption{
+    opacity: 1;
+    padding-top: 0%;
+}
+.caption{
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;  
+    background-color: rgb(47, 82, 82);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    cursor: pointer;
+    opacity: 0;
+    padding-top: 70%;
+    transition:0.4s;
+
+}
+.caption img{
+    width: 60px;
+    margin-bottom: 10px;
+}
